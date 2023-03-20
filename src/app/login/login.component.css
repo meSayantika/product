@@ -1,0 +1,76 @@
+.mainContainer{
+  display: grid; 
+  flex: 1 0 auto; 
+  align-items: center; 
+  height: 610px; 
+  background: url("/assets/images/sea.jpeg") no-repeat center center;
+  background-size:cover;
+} 
+label{color: white}
+
+form {
+  border: 1px solid #000000;
+  background-color: #0a0a06;
+  border-radius: 8px;
+  height:360px;
+}
+
+  .loginSec{
+    max-width: 450px; 
+    width: 100%; 
+    margin: 0 auto;
+  }
+
+  .column {
+    float: left;
+    padding: 10px;
+  }
+
+  .img_container{
+    text-align: center;
+  margin: 24px auto 12px auto;
+  max-width: 350px;
+  }
+
+  h2>label{
+    font-family: cursive;
+  }
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-size: medium;
+  }
+  .example-card {
+  max-width: 400px;
+}
+
+.container {
+  padding: 16px;
+}
+
+button {
+  background-color: #0c51e4;
+  color: white;
+  padding: 18px 20px;
+  margin: 15px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 6px;
+}
+
+button:disabled{
+  background-color: #828685 !important;
+  color: white !important;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+      
